@@ -1,0 +1,10 @@
+@media only screen and (max-width:978px) {
+    .count {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.home-section .home-main .home-hero {
+    top: 15rem;
+}

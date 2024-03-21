@@ -1,0 +1,24 @@
+.team-card {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.team-card:hover {
+    transform: scaleY(1.05);
+}
+
+.team-btn:hover,
+.team-icons a:hover {
+    transform: skew(1deg) scale(1.03) translate(-5px, -5px);
+}
+
+.team-icons a,
+.team-btn {
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 480px) {
+    /* .team-card {
+        width: 100% !important;
+    } */
+}

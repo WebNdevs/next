@@ -1,0 +1,12 @@
+.counter-round {
+    box-shadow: 0 2px 15px #636363;
+}
+
+.counter-card {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.counter-card:hover {
+    transform: translateY(-30px);
+}

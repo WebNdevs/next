@@ -1,0 +1,157 @@
+.home-main {
+    background-image: url(../assets/pic2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.h-img-1 {
+    background-image: url(../assets/bubble2.png);
+    background-repeat: no-repeat;
+}
+
+.h-img-2 {
+    background-image: url(../assets/bubble1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.counter-container {
+    background-image: url(../assets/counter.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.h-r-img1 {
+    transform: rotate(-4deg);
+    animation: motion1 5s infinite;
+}
+
+@keyframes motion1 {
+    0% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+    }
+
+    100% {
+        transform: rotate(-4deg);
+    }
+}
+
+.img_up {
+    transform: translateY(-10px);
+    animation: motion2 5s infinite;
+}
+
+@keyframes motion2 {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .home-hero {
+        align-items: center;
+    }
+
+    .h-h-left {
+        padding: 0 5px;
+    }
+
+    .h-h-left h1 {
+        padding: 10px 0;
+        font-size: 4vw;
+    }
+
+    .h-h-left p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-hero {
+        flex-direction: column;
+        top: 90px !important;
+        min-height: 600px;
+    }
+
+    .h-h-left {
+        padding: 40px 50px;
+    }
+
+    .h-h-left p {
+        display: none;
+    }
+
+    .h-h-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .h-r-img1 img {
+        width: 450px;
+        height: 400px;
+    }
+
+    .h-r-img2 img {
+        width: 450px;
+    }
+
+    .down-card {
+        flex-direction: column;
+    }
+
+    .counter-container .flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home-services {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .h-h-left {
+        padding: 10px;
+    }
+
+    .h-h-left h1 {
+        font-size: 1.8rem;
+        line-height: 2.54rem;
+    }
+
+    .h-h-left h6 {
+        font-size: 1.2rem;
+        line-height: 2.54rem;
+    }
+
+    .h-r-img1 img {
+        width: unset;
+        height: unset;
+    }
+
+    .h-r-img2 img {
+        width: unset;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .h-r-img1{
+        min-height: 550px;
+    }
+}

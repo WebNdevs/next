@@ -1,0 +1,18 @@
+@media only screen and (min-width:978px) {
+    .development-section .card-container, .digital-section .card-container {
+        width: 350px !important;
+    }
+}
+
+.development-card , .digital-section {
+    background-image: url(../assets/bubble2.png);
+    /* background-repeat: repeat; */
+}
+
+.development-section .down-card .card-container , .digital-section  .down-card .card-container {
+    box-shadow: 0 0px 10px 4px rgba(31, 66, 135, 0.1);
+}
+
+.development-section .down-card .card-container .card-links ,.digital-section  .down-card .card-container .card-links {
+    display: none;
+}

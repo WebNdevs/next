@@ -1,0 +1,46 @@
+header li {
+    /* position: relative; */
+    transition: all 0.1s ease
+}
+
+/* 
+header li:hover div {
+    animation: toRightFromLeft 0.9s forwards;
+}
+
+@keyframes toRightFromLeft {
+    49% {
+        transform: translateY(100%);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    51% {
+        opacity: 1;
+    }
+} */
+
+header li:hover div , header ul ul li:hover {
+    color: #0099d9;
+}
+
+.nav-shadow {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+.groups ul {
+    display: none;
+}
+
+.groups:hover ul {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    nav img {
+        width: 120px !important;
+    }
+}

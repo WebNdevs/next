@@ -1,0 +1,23 @@
+.training-section .home-main , .home-section .home-main {
+    background-image: unset !important;
+    background: #c5cfd966;
+}
+
+@media only screen and (min-width: 978px) {
+    .training-cards .card-container {
+        width: 48%;
+    }
+
+    .training-cards .card-container:nth-child(5) {
+        width: 100%;
+    }
+
+    .training-section .card-two img{
+        height: unset !important;
+        width: unset !important;
+        max-height: unset !important;
+    }
+    .training-section .home-hero h1{
+        line-height: 4.4rem;
+    }
+}
